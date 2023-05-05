@@ -5,10 +5,14 @@ import Login from "./components/Login";
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      <header className="App-header">
 
-       <Login />
+        <p>
+         <Login />
+        </p>
 
+      </header>
     </div>
   );
 }

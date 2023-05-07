@@ -4,7 +4,7 @@ import Login from "../Login";
 import Dashboard from "../Dashboard";
 
 
-const Apps = () => {
+const App = () => {
     const [isAuthenticated, setIsAuthenticated] = useState(null);
 
     useEffect(() => {
@@ -22,4 +22,4 @@ const Apps = () => {
     );
 };
 
-export default Apps;
+export default App;
